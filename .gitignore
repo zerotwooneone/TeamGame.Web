@@ -363,4 +363,4 @@ MigrationBackup/
 FodyWeavers.xsd
 
 #published app
-/source/TeamGame.Web/TeamGame.Web/wwwroot/teamgame
+/source/TeamGame.Web/wwwroot/teamgame
