@@ -1,0 +1,103 @@
+{
+  "configVersion": 1,
+  "timestamp": 1670478396747,
+  "index": "/teamgame/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/teamgame/favicon.ico",
+        "/teamgame/index.html",
+        "/teamgame/main.9d85ed4870441be3.js",
+        "/teamgame/manifest.webmanifest",
+        "/teamgame/polyfills.8436f21e3355c49b.js",
+        "/teamgame/runtime.510b031284607e09.js",
+        "/teamgame/styles.2bcabb8cbfdb75b7.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/teamgame/assets/boards/board1.json",
+        "/teamgame/assets/icons/icon-128x128.png",
+        "/teamgame/assets/icons/icon-144x144.png",
+        "/teamgame/assets/icons/icon-152x152.png",
+        "/teamgame/assets/icons/icon-192x192.png",
+        "/teamgame/assets/icons/icon-384x384.png",
+        "/teamgame/assets/icons/icon-512x512.png",
+        "/teamgame/assets/icons/icon-72x72.png",
+        "/teamgame/assets/icons/icon-96x96.png",
+        "/teamgame/assets/mock/user.json",
+        "/teamgame/assets/team-tokens/circle.white.svg",
+        "/teamgame/assets/team-tokens/hexagon.white.svg",
+        "/teamgame/assets/team-tokens/pentagon.white.svg",
+        "/teamgame/assets/team-tokens/spiral.white.svg",
+        "/teamgame/assets/team-tokens/square.white.svg",
+        "/teamgame/assets/team-tokens/star.white.svg",
+        "/teamgame/assets/team-tokens/triangle.white.svg",
+        "/teamgame/assets/token-movement/arrow.white.up.svg",
+        "/teamgame/assets/token-movement/pickup.white.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/teamgame/assets/boards/board1.json": "3068212bf733b19629cac1e644e4d431e1fa2145",
+    "/teamgame/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/teamgame/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/teamgame/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/teamgame/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/teamgame/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/teamgame/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/teamgame/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/teamgame/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/teamgame/assets/mock/user.json": "60136ecc25a2e555bb2831b8fcf74d93e5760984",
+    "/teamgame/assets/team-tokens/circle.white.svg": "942856b9824a648bb95aa72b6902c986feada72f",
+    "/teamgame/assets/team-tokens/hexagon.white.svg": "99d0a3ee591072ea050ccdf6d7b0afc6db75cb6c",
+    "/teamgame/assets/team-tokens/pentagon.white.svg": "810903c0f477c965ccafdf0910b0a38b451b451b",
+    "/teamgame/assets/team-tokens/spiral.white.svg": "39ab41a4cf2e34281d62a7572d8a465fbc19e364",
+    "/teamgame/assets/team-tokens/square.white.svg": "edc427e2592186d7dbaa9d2e6b1c7884091c63c2",
+    "/teamgame/assets/team-tokens/star.white.svg": "05fc0eefb9911dbb9fb6c7ae80d2a477ad74467a",
+    "/teamgame/assets/team-tokens/triangle.white.svg": "785f732086ba1643508760801776a99e6b1f77ec",
+    "/teamgame/assets/token-movement/arrow.white.up.svg": "476556593367e62c06866805eac6844e293fb173",
+    "/teamgame/assets/token-movement/pickup.white.svg": "0f615dd87ed1b958f2e5b64121526ee4ddf865f3",
+    "/teamgame/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/teamgame/index.html": "b5cba419e55051f3ce07a4c4c7e2d2e42230846f",
+    "/teamgame/main.9d85ed4870441be3.js": "0032cb65a543f2685246449ef29b8cee88afead7",
+    "/teamgame/manifest.webmanifest": "f947265a50e47d93445133f4958c66e65768d3ff",
+    "/teamgame/polyfills.8436f21e3355c49b.js": "f7cfae36d308037d5345a6f6a962847cdd8833fc",
+    "/teamgame/runtime.510b031284607e09.js": "115c0c7fa7022f1dab6cc4c56e6e493b8892f4b8",
+    "/teamgame/styles.2bcabb8cbfdb75b7.css": "672c256f1a8a0a03d99eac19a91709970b7382f5"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
