@@ -37,7 +37,9 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+app.MapControllers();
 app.MapRazorPages();
 app.MapHub<GameHub>("/gamehub");
+
 
 app.Run();
