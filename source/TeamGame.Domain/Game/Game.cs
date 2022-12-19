@@ -1,10 +1,11 @@
-﻿using TeamGame.Domain.Util;
+﻿using TeamGame.Domain.Contracts.Game;
+using TeamGame.Domain.Util;
 
 namespace TeamGame.Domain.Game;
 
-public sealed class Game : IDisposable
+public sealed class Game : IGame, IDisposable
 {
-    public readonly string Id;
+    public string Id { get; init; }
     private readonly ObservablePropertyHelper<Round.Round> _round;
     public ObservableProperty<Round.Round> Round => _round.Property;
     private readonly Dictionary<string,Team.Team> _teams;

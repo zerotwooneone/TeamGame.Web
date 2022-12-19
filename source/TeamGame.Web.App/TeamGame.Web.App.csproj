@@ -19,4 +19,9 @@
     <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.21.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TeamGame.Domain.Contracts\TeamGame.Domain.Contracts.csproj" />
+    <ProjectReference Include="..\TeamGame.Domain\TeamGame.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
